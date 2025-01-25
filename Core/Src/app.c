@@ -14,8 +14,9 @@ extern UART_HandleTypeDef huart2;
 uint8_t value[3];
 
 void app() {
+	// uart 초기화
 	initUart(&huart2);
-
+	// fafs 설정
 	while(1) {
 
 	}
